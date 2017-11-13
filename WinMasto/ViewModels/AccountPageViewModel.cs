@@ -70,7 +70,7 @@ namespace WinMasto.ViewModels
                 Title = Account.UserName;
                 if (getNewStatus)
                 {
-                    Statuses = new TimelineScrollingCollection(Client, "account", Account.Id);
+                    Statuses = new TimelineScrollingCollection(Client, "account", Convert.ToInt32(Account.Id));
                 }
                 RaisePropertyChanged("Statuses");
             }

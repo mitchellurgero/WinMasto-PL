@@ -112,6 +112,9 @@
     <Compile Include="ToastNotificationBackgroundTask.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Mastonet">
+      <Version>1.0.0</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>5.3.3</Version>
     </PackageReference>
@@ -123,10 +126,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mastonet\Mastonet\Mastonet.csproj">
-      <Project>{edfaaa19-e2bd-4e6b-8951-2ad9e885df8c}</Project>
-      <Name>Mastonet</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WinMasto.Windows.Core\WinMasto.Core.csproj">
       <Project>{ff1540ce-4a02-4971-adca-cecbe48cc4c5}</Project>
       <Name>WinMasto.Core</Name>

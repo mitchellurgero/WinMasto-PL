@@ -122,13 +122,13 @@ namespace WinMasto.ViewModels
         {
             IsLoading = true;
             if (string.IsNullOrEmpty(Status) || Status.Length > 500) return;
-            IEnumerable<int> mediaIds = null;
+            IEnumerable<long> mediaIds = null;
             if (PhotoList.Any())
             {
-                mediaIds = PhotoList.Select(node => node.Attachment.Id);
+                mediaIds = PhotoList.Select(node => Convert.ToInt64(node.Attachment.Id));
             }
             int? replyId = null;
-            if (ReplyStatus != null) replyId = ReplyStatus.Id;
+            if (ReplyStatus != null) replyId = Convert.ToInt32(ReplyStatus.Id);
             try
             {
                 var result = await Client.PostStatus(Status, StatusVisibility, replyId, mediaIds, Sensitive, SpoilerText.Any() ? SpoilerText : null);

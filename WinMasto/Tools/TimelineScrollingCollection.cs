@@ -99,7 +99,7 @@ namespace WinMasto.Tools
             if (statuses.Any())
             {
                 this.AddRange(statuses);
-                _maxId = statuses.Last().Id;
+                _maxId = Convert.ToInt32(statuses.Last().Id);
             }
             else
             {

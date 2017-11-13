@@ -2,6 +2,9 @@
 
 ## WinMasto
 
+(MODIFIED TO WORK WITH PLEROMA)
+
+
 WinMasto is a UWP client for Mastodon, a GNU social-compatible federated social network. You can learn more about Mastodon [here](https://github.com/tootsuite/mastodon). The goal of this project is to create a simple, elegant, Mastodon client that doesn't try to stuff as many power user features in as possible.
 
 <img src="http://i.imgur.com/LxxiWm3.png" width="400"> <img src="http://i.imgur.com/2y85gVY.png" width="400">
@@ -20,13 +23,6 @@ You can download WinMasto from the [Windows Store](https://www.microsoft.com/sto
   * Home, Local, and Federated timelines
   * Dark and light themes
 
-I'm working on more features, such as
-- Push Notifications
-- Search
-- Fixing the bugs that are probably on the top list
-- Tweaking the UI
-- Translations
-- And more
 
 ## Contributions
 
