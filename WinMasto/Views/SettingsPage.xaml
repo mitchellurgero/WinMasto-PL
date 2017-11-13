@@ -99,7 +99,7 @@
                                 <RichTextBlock Margin="0,0,0,25" TextWrapping="Wrap">
                                     <Paragraph>
                                         Log issues and other requests on the GitHub page.
-                                        <Hyperlink NavigateUri="https://github.com/drasticactions/WinMasto">GitHub</Hyperlink>
+                                        <Hyperlink NavigateUri="https://github.com/mitchellurgero/WinMasto-PL">GitHub</Hyperlink>
                                     </Paragraph>
                                 </RichTextBlock>
 
@@ -111,7 +111,12 @@
                                         <Hyperlink NavigateUri="https://mastodon.network/@DrasticActions">@DrasticActions@mastodon.network</Hyperlink>
                                     </Paragraph>
                                 </RichTextBlock>
-
+                                <RichTextBlock Margin="0,0,0,25" TextWrapping="Wrap">
+                                    <Paragraph>
+                                        Mitchell Urgero
+                                        <Hyperlink NavigateUri="https://github.com/mitchellurgero">Mitchell Urgero (Pleroma Modification Maintainer)</Hyperlink>
+                                    </Paragraph>
+                                </RichTextBlock>
                                 <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Libraries:" />
 
                                 <TextBlock Margin="0,0,0,25" TextWrapping="Wrap">
